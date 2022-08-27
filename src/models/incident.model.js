@@ -27,6 +27,9 @@ const incidentsSchema = mongoose.Schema(
     assignee: {
       type: mongoose.SchemaTypes.ObjectId,
       ref: 'User',
+      default: {
+        _id: '6009cb85e65f6dce28fb3e51',
+      },
     },
     priority: {
       type: Number,
