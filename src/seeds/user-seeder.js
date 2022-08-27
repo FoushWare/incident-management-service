@@ -11,6 +11,15 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
 
 const UsersList = [
   new User({
+    _id: '6009cb85e65f6dce28fb3e51',
+    name: 'unknown',
+    email: 'unknown@gmail.com',
+    password: 'unknown1111',
+    role: 'user',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  }),
+  new User({
     name: 'admin',
     email: 'admin@gmail.com',
     password: 'admin1111',
